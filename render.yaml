@@ -1,7 +1,6 @@
 databases:
   - name: postgres
     databaseName: postgresql
-    user: AbbyNyakara
 
 services:
   - type: web
