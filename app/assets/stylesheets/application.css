@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+ @import url('https://fonts.cdnfonts.com/css/gotham-ssm');
+
+* {
+  /* font-family: 'Kumbh Sans', sans-serif; */
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Home Page Styling */
+
+.home__page {
+  font-family: 'Gotham SSm', sans-serif;                                       
+  /* background-color: #18453b; */
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo__image {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.home__btn {
+  color: #fff;
+  font-family: 'Gotham SSm', sans-serif;
+  padding: 20px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: none;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  background-color: #18453b;
+  border-radius: 5px;
+}
+
+.home__btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(24, 69, 59, 0.9);
+  transition-duration: 1000ms;
+}
+
+.home__elections { 
+  margin-bottom: 2rem;
+}
+
+
