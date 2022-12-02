@@ -1,6 +1,7 @@
 databases:
   - name: postgres
     databaseName: postgresql
+    plan: free
 
 services:
   - type: web
