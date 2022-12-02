@@ -18,3 +18,4 @@ production:
   database: Voters_Project_production
   username: Voters_Project
   password: <%= ENV["VOTERS_PROJECT_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
