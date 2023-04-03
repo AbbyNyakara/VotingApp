@@ -1,0 +1,16 @@
+.home {
+  display: grid;
+  place-items: center;
+  margin-top: 2rem;
+  font-family: 'Gotham', sans-serif;
+  button {
+    background-color: #18453b;
+    color: #fff;
+    border-color: #18453b;
+  }
+}
+
+img {
+  height: 18rem;
+  padding-bottom: 2rem;
+}

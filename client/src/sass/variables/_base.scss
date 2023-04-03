@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+$font_stack: 'Montserrat', sans-serif;
+
+body {
+  font: 100% $font_stack;
+}
+
